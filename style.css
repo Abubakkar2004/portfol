@@ -1,0 +1,368 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.home{
+	background: linear-gradient(to bottom, #00ccff 42%, #006666 100%);
+	height: 500px;
+	text-align: center;
+}
+.nav{
+	display: flex;
+	justify-content: space-between;
+}
+.nav img{
+	width: 100px;
+	height: 100px;
+	margin: 80px 0px 0px 80px;
+}
+.menu img{
+	height: 60px;
+	width: 60px;
+	margin: 100px 80px 0px 0px;
+}
+.name{
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+}
+hr{
+	width: 500px;
+	border: 2px solid black;
+	margin: auto;
+}
+
+
+
+/*side nav*/
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0px;
+  background-color: #006666;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #b2d6d6;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #fff;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  left: 25px;
+  font-size: 36px;
+  
+}
+
+/*side nav end*/
+
+
+/*--My Information*/
+.myinfo{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.myinfo img{
+	width: 400px;
+	height: 400px;
+	margin: 50px 0px 50px 100px;
+}	
+.myinfo span{
+	background-color: ;
+}
+.myinfo span p{
+	font-family: 'Dancing Script', cursive;
+	font-size: 23px;
+	text-align: justify;
+	margin: 0px 50px 0px 0px;
+}
+
+.myinfo span button{
+	width: 120px;
+	height: 40px;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	border: 1px solid #000;
+	background-color: #006666;
+	margin:  50px 0px 0px 35%; 
+}
+
+/*--My Information Ends*/
+
+
+/*My Experiences*/
+.experience p{
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	padding: 10px;
+	font-family: 'Dancing Script', cursive;
+}
+.expimg{
+	display: flex;
+	justify-content: center;
+}
+.container {
+  position: relative;
+}
+
+.image {
+  display: block;
+  width: 330px;
+  height: 220px;
+  padding: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 180px;
+  padding: 20px;
+  width: 290px;
+  margin: 20px 0px 0px 20px;
+  opacity: 0;
+  transition: .5s ease;
+  background: linear-gradient(to bottom, #00ccff 42%, #006666 100%);
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/*My Experiences End*/
+
+
+/*Education Profession*/
+
+.profession{
+	display: flex;
+	justify-content: space-between;
+	background: linear-gradient(to bottom, #00ccff 42%, #006666 100%);
+	padding: 25px;
+	margin: 30px 0px 0px 0px;
+}
+.profession hr{
+	width: 100%;
+}
+.work{
+	width: 40%;
+}
+.education{
+	width: 40%;	
+}
+
+/*Education Profession Ends*/
+
+
+/*My Latest Work*/
+.txt{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Dancing Script', cursive;
+	margin: 20px 0px 0px 20px;
+}
+.latestwork{
+	display: flex;
+	justify-content: center;
+}
+.latest{
+	width: 45%;
+	padding: 20px;
+}
+
+.row{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.column{
+	width: 45%;
+	height: 90%;
+	background-color: #006666;
+}
+
+.row1{
+	width: 100%;
+	height: 180px;
+	background-color: #006666;
+}
+
+
+/*My Latest Work Ends*/
+
+
+/*My Words As A Freelencer*/
+
+.mywords{
+	background-color: #3a7070;
+}
+.mywords h2{
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+	padding: 50px 0px 0px 100px;
+}
+.mywords p{
+	padding: 30px 200px 50px 100px;
+	text-align: justify;
+	font-family: 'Dancing Script', cursive;
+	font-size: 35px;
+	color: #000;
+}
+
+/*My Words As A Freelencer*/
+
+
+/*Contact Part*/
+.contact{
+	display: flex;
+	justify-content: center;
+	background-color: ;
+	padding: 20px;
+
+}
+.contact .column{
+	width: 45%;
+	height: 500px;
+	background-color: #006666;
+	margin: 20px 10px 20px 10px;
+
+}
+
+
+.messege{
+	font-size: 30px;
+	font-style: italic;
+	color: white;
+	margin: 20px 0px 0px 40px;
+}
+
+form{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+form input{
+	width: 70%;
+	height: 50px;
+	background-color: transparent;
+	color: white;
+	font-size: 16px;
+	padding: 20px;
+	margin: 10px;
+	border: 1px solid #fff;
+}
+textarea{
+	width: 70%;
+	height: 100px;
+	background-color: transparent;
+	padding: 20px;
+	margin: 10px;
+	color: white;
+	font-size: 16px;
+}
+
+form button{
+	font-size: 20px;
+	padding: 10px;
+	text-align: center;
+	margin: 10px 0px 0px 10px;
+	font-weight: bold;
+}
+
+.contact .column1{
+	width: 45%;
+	height: 500px;
+	margin: 0px 10px 0px 10px;
+}
+
+
+.contact .column1 .row{
+	width: 100%;
+	height: 147px;
+	background-color: #006666;
+	display: inline-block;
+	margin: 20px 20px 10px 20px;
+}
+
+.contact .column1 .row p{
+	font-size: 25px;
+	color: #fff;
+	font-style: italic;
+	padding: 10px 0px 0px 30px;
+}
+
+.contact .column1 hr{
+	width: 90%;
+}
+.contact .column1 h4{
+	padding: 10px 0px 0px 30px;
+	font-size: 20px;
+	color: #a5b5b5;
+}
+/*Contact Part*/
+
+
+/*footer*/
+
+.footer{
+	width: 100%;
+	height: 150px;
+	background-color: #385e5e;
+}
+.images{
+	display: flex;
+	justify-content: center;
+}
+.images img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin: 20px
+}
+.images .hr{
+	width: 3px;
+	height: 50px;
+	background-color: black;
+	margin-top: 20px;
+}
+
+.footer p{
+	font-size: 15px;
+	text-align: center;
+}
+
+/*footer Ends*/
